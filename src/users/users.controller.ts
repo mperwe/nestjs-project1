@@ -8,7 +8,7 @@ export class UsersController {
                        
     */
     @Get() // GET /users (query parameter) - or /users?role=value)
-    findAll(@Query('role') role?: 'INTERNS' | 'ENGINEER' | 'ADMIN') {
+    findAll(@Query('role') role?: 'INTERN' | 'ENGINEER' | 'ADMIN') {
         return[]         
     }
 
